@@ -23,7 +23,7 @@ The backend project can be found [here](https://github.com/OpenClassrooms-Studen
 
 Follow the indications in the README of the backend project.
 
-### 2 - launch fontend
+### 2 - Launch fontend
 
 -   Fork the repository
 -   Clone the repository
