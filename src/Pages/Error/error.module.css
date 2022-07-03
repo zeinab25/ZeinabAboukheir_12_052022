@@ -1,0 +1,41 @@
+.error {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	height: 100vh;
+	min-height: 100%;
+}
+
+.error div {
+	text-align: center;
+	color: #e06969;
+}
+
+.error h2 {
+	font-size: 288px;
+	font-weight: 700;
+}
+.error p {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 142%;
+	margin-bottom: 100px;
+}
+.error a {
+	font-size: 18px;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.error a:visited {
+	color: #e06969;
+}
+
+@media screen and (max-width: 768px) {
+	.error h2 {
+		font-size: 96px;
+	}
+	.error p {
+		font-size: 18px;
+	}
+}

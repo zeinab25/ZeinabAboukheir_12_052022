@@ -1,0 +1,43 @@
+header {
+	background-color: black;
+	height: 91px;
+	display: flex;
+	width: 100%;
+	padding-left: 30px;
+	padding-right: 80px;
+}
+
+header h1 {
+	width: 28%;
+	margin-right: 20px;
+}
+
+header nav {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	width: 72%;
+}
+
+header nav li,
+header nav li a {
+	font-size: 24px;
+	color: white;
+	font-weight: 500;
+}
+
+.active {
+	text-decoration: underline;
+	color: white;
+}
+
+header nav img {
+	width: 180px;
+	height: 60px;
+}
