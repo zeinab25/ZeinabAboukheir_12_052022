@@ -8,8 +8,8 @@ export default function Home() {
 		<>
 			<Title>Utilisateurs</Title>
 			<Container>
-				<Button pathname="12">Utilisateur 12</Button>
-				<Button pathname="18">Utilisateur 18</Button>
+				<Button pathname="user/12">Utilisateur 12</Button>
+				<Button pathname="user/18">Utilisateur 18</Button>
 			</Container>
 		</>
 	);

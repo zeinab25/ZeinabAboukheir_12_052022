@@ -5,7 +5,7 @@ import propTypes from "prop-types";
 
 export default function Button(props) {
 	return (
-		<Link to={`user/${props.pathname}`} className={styles.button}>
+		<Link to={props.pathname} className={styles.button}>
 			{props.children}
 		</Link>
 	);

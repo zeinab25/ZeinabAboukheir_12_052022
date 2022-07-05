@@ -67,9 +67,11 @@ export default function Dashboard({}) {
 		getUserData();
 	}, [id]);
 
-	return isLoading ? (
-		<div>Loading...</div>
-	) : (
+	if (isLoading) {
+		return <div>Loading...</div>;
+	}
+
+	return (
 		<>
 			<h1 className={styles.title}>
 				Bonjour
